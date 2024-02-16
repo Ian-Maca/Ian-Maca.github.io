@@ -8,17 +8,17 @@
     src: url("./fonts/sfour.ttf");
 }
 
+#p-lineup {
+  font-family: "sfour";
+  font-size:x-large;
+  text-align: center;
+}
+
 h1 {
     font-family: "dmseriff";
     padding-top: 0.7em;
     text-align: center;
     font-size: xxx-large;
-}
-
-p {
-    font-family: "sfour";
-    font-size:x-large;
-    text-align: center;
 }
 
 body {

@@ -15,25 +15,25 @@ function downloadFile(filename) {
         }
       })
       .then(blob => {
-        // Create a new anchor tag for downloading the file
+        // create new anchor for download
         const anchor = document.createElement('a');
   
-        // Set the anchor tag's href attribute to the blob URL
+        // set link url for href
         anchor.href = URL.createObjectURL(blob);
   
-        // Set the anchor tag's download attribute to the file's name
+        // tell anchor we are downloading a file
         anchor.download = filename;
   
-        // Trigger the download by clicking the anchor tag
+        // triggers anchor download
         anchor.click();
   
-        // Remove the anchor tag from the DOM
+        // remove anchor
         anchor.remove();
       })
       .catch(error => {
         // Handle the error
         console.error(error);
-        alert('Error downloading file.');
+        alert('File download error!');
       });
   }
   
