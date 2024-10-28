@@ -5,8 +5,32 @@ body {
     padding: 0;
 }
 
+.skills-style {
+    margin-top: 30px;
+}
+
+.about-section {
+    margin-top: 0;
+}
+
 p {
     text-align: center;
+}
+
+.dl-link{
+    color: #29bbde;
+}
+
+.project-header {
+    text-overline-color: #29bbde;
+    text-decoration-color: #ff0000;
+    text-align: center;
+    margin-right: 30px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
 }
 
 /* Header styles */

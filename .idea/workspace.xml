@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbaf0352-8817-4218-9a46-3b41cc43d4dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/downloads/StarJammin.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/DMSeriff.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/sfour.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/backg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/char.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/question_mark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub/post_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1726431797753</updated>
       <workItem from="1726431800241" duration="6864000" />
-      <workItem from="1726467871498" duration="264000" />
+      <workItem from="1726467871498" duration="593000" />
+      <workItem from="1730070945230" duration="7381000" />
     </task>
     <servers />
   </component>
