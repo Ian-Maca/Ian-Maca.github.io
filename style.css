@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .skills-style {
@@ -17,15 +20,8 @@ p {
     text-align: center;
 }
 
-.dl-link{
+.dl-link {
     color: #29bbde;
-}
-
-.project-header {
-    text-overline-color: #29bbde;
-    text-decoration-color: #ff0000;
-    text-align: center;
-    margin-right: 30px;
 }
 
 ul {
@@ -67,6 +63,10 @@ nav a {
     color: #333;
 }
 
+li a {
+    text-decoration: none;
+}
+
 /* Main content styles */
 main {
     padding: 20px;
@@ -78,11 +78,49 @@ h2 {
 }
 
 /* Project styles */
-.project {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
-    justify-content: center;
+
+.project-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-img {
+    display: block;
+    max-height: 120px;
+    max-width: 200px;
+    width: auto;
+    height: auto;
+}
+
+.project-item {
+    display: block;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    text-underline: none;
+    border-radius: 10px;
+}
+
+.project-item:hover {
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+
+.project-item h3 {
+    background-color: #333333;
+    padding: 2px 20px;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.project-item p {
+    background-color: #333333;
+    padding: 2px 20px;
+    margin-top: 0;
+    border-radius: 0 0 10px 10px;
 }
 
 /* Blog styles */
@@ -94,10 +132,32 @@ article {
 
 /* Footer styles */
 footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: space-around;
+}
+
+.footer-svg {
+    filter: invert(0.8);
+    width: 40px;
+    height: 40px;
+}
+
+.footer-svg:hover {
+    scale: 110%;
+    transition: 300ms;
 }
 
 /* Responsive design */
